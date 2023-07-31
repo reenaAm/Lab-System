@@ -549,180 +549,40 @@ VALUES ('جهاز هضم الطعام كيلدال', 'Se. 91890101', 1005566, '1
 INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
 VALUES ('ملحق', 'Se. 91888198', 1005566, '1443-8-3', 'هلا المرزوقي', null, null, null,  null, null, null,'معمل الكيمياء', 203, null);
 
-
---lab 205 -------------------------------------------
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ثلاجة', '2003152676 - Hassultima', null, null, 'ماجدة أبو راس', 'التبريد', null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('نظام تدفئة جاف من 5 إلى 130', '130429-08  - JSR', '1412', '1434/10/8', 'هديل السفياني', 'التدفئة', 'مؤسسة الشبكة للأجهزة المخبرية', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز طرد مركزي', '117185 - sigma - Typ.2-16KC', null, null, 'هدى الكريثي', 'فصل العينات', null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('مولد طاقة', 'ST500w4 - Auto stac', null, null, 'مجهول', 'توليد الطاقة', 'غير موحود', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز البلمرة التسلسلي ', '272008317 - APPLIED BIOSYSTEM', 696, '1435-6-2', 'هدى الشيبي', 'مضاعفة ال دي إن أي', 'شركة توريدات الخليج', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('طابعة', 'CNF1b47301 - hp laser jet pro200color', 696, '1435-6-2', 'هدى الشيبي', 'الطباعة', 'شركة توريدات الخليج', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('لوحة مفاتيح', 'DELL - Se.CN-0DJ454-71581-2CH-03MT-A00', 696, '143-6-2', 'هدى الشيبي', 'ادخال البيانات', 'شركة توريدات الخليج', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('شاشة كمبيوتر', 'CN0VHPX3744452CJ627L - DELL', 696, '1435-6-2', 'هدى الشيبي', 'عرض البيانات', 'شركة توريدات الخليج', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('قرص صلب', '446539 - DELL', 696, '1435-6-2', 'هدى الشيبي', 'حفظ البيانات', 'شركة توريدات الخليج', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('هزاز للأنابيب', 'Se.Z0051141 - LABNET', null, null, 'مجهول', 'المزج', null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('كابينة أعمال بيولوجية', '13092507 - JSR', 1065, '1434-7-3', ' جيهان رحيمي', 'توفير بيئة مناسبة', 'مؤسسة الشبكة للأجهزة المخبرية', null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('فرن', 'Se.G32236 - MOD.30GC - QL', null, null, null, null, null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز طرد مركزي مبرد للانابيب الابندروف', 'Se.LRM230-1003007Prismr (Labnet)', null, null, 'أسماء الحربي', null, null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز مضاعفة دي ان أي (pcr)', 'Se.533150720 - Master cycler gradient', null, null, 'مجهول', null, null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('سخان', 'DLC5531', null, null, null, null, null, null, null, 'معمل الكيمياء الحيوية', 205);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حضانة+هزاز', 'Se.0703-7082 - Mod.3526-ICE  LAB LINE', null, null, null, null, null, null, null, 'معمل الكيمياء الحيوية', 205);
-
---lab 208 -------------------------------------------
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز خلط للعينات مع التسخين (موقد من السيراميك)', 'Cat.CB302 - Se.R000104893', null, null, 'سعدية باروم', 'التسخين والمزج', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ميزان الكتروني', 'Se.0065539 - AA-200', null, null, null, 'الوزن', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('فرن تعقيم ( فرن معملي وحاضنة 30ل)', 'Se.524860/1 - G209', null, null, null, 'التعقيم', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ثلاجة', 'Mod.FR-063 - SE.TR081EA3380352', null, null, null, 'التبريد', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('مجهر مع كاميرا ', 'Mod.C-DSD230 - Se.1002446', null, null, null, 'فحص الشرائح', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('كاميرا', 'Se.12734142', null, null, null, 'التصوير', null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حمام مائي مع حضان', 'A04070 - mod.BT25  /Uamato', null, null, null, null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز دوار لاطباق بتري', '13744 - PBI', null, null, 'بلقيس المعينة', null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز تفتيت الأنسجة', 'SG99/09/285', null, null, null, null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('فرن حضان', 'Se.D-63450 - HERAEUS Typ.B6760', null, null, 'بلقيس المعينة', null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('سخان', 'Al-faris Mod.2610', null, null, 'بلقيس المعينة', null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حضان', 'Se.23886 - Mod.NR-30 - Carbolite', null, null, 'زين الشريف', null, null, null, null, 'معمل احياء', 208);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('خلاط للمحاليل', '20117728 - OXOID', 1667, '1434-1-3', 'أسماء المحمدي', null, 'مؤسسة إبراهيم السقاف', null, null, 'معمل احياء', 208);
-
---lab 254 -------------------------------------------
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('مجهر ضوئي فلوريسنت مع كاميرا', '3H22584 - OLYMPUS1*71', null, null, 'خديجة بالعمش', 'فحص الشرائح', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق للكاميرا', 'Olympus PM10SP', null, null, 'خديجة بالعمش', null, null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق', 'Olympus - TH4-200', null, null, 'خديجة بالعمش', null, null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز عد الخلايا الحية والميتة باستخدام صبغة التبيان الزرقا', 'Se.AV37420 - BECKMAN COULTER', null, '8/10/1434', 'هدى الشيبي', 'عد الخلايا', 'شركة الجيل الطبية', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('شاشة كمبيوتر', 'Se.PX7062601094 - VIEW SONIC', null, null, 'هدى الشيبي', 'عرض البيانات', 'شركة الجيل الطبية', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('لوحة مفاتيح', 'mod.KU-0316 - HP', null, null, 'مجهول', 'ادخال البيانات', 'تم تغيير السابقة ', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('قرص صلب', 'Se.CZC1414WVB - HP 8200', null, null, 'مجهول', 'حفظ البيانات', 'تم تغيير السابق', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('قرص صلب', 'TPDA50532 - CHIEFTEC', null, null, 'هدى الشيبي', 'حفظ البيانات', 'لابد من تكهينه الجيل', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز عد الخلايا صغير', 'Se.0891-049 - invitrogen', null, null, 'مجهول', 'عد الخلايا', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('مجهر عادي مع كمبيوتر', 'Se.913740 - 15012 - NIKON', null, null, 'هدى الكريثي', 'فحص الشرائح', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق', 'Se.G10102 - NIKON', null, null, 'هدى الكريثي', null, null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق', '212037 Digital sight', null, null, 'هدى الكريثي', null, null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('قرص صلب', 'لا يوجد رقم تسلسلي', null, null, 'هدى الكريثي', 'حفظ البيانات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('شاشة كمبيوتر', 'HPL1706', null, null, 'هدى الكريثي', 'عرض البيانات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('لوحة مفاتيح', 'Se. G 0028697 - cherry', null, null, 'هدى الكريثي', 'ادخال البيانات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حمام مائي', '11603806L - GFL', null, null, 'مجهول', 'التسخين', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('مجهر مقلوب متصل ب', 'Se. 1D75342-Mod.1X2-ILL30 - Olympus', 929, '1432-7-9', 'أسماء الحربي', 'فحص الشرائح', 'مؤسسة الصالحة', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('كاميرا رقمية', 'Mod.Olympus DP72', 929, '1432-7-9', 'أسماء الحربي', 'التصوير', 'مؤسسة الصالحة', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق', 'Olympus TL4', 929, '1432-7-9', 'أسماء الحربي', null, 'مؤسسة الصالحة', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('ملحق الكاميرا', 'Se. 9A17238Olympus', 929, '1432-7-9', 'أسماء الحربي', null, 'مؤسسة الصالحة', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('كمبيوتر محمول', 'Se.CZC05025Y1', null, null, null, 'حفظ وعرض البيانات', ' ', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('سخان مع مقلب', 'Se.089901262 - HEIDOLPH(VIBRA MAX10)', null, null, 'فوزية النويصر', 'التسخين', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('كابينة أعمال بيولوجية', '87630120103 - MUAIRE', null, null, 'حنان قاضي', 'توفير بيئة مناسبة', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حضان مع ثاني اكسيد الكربون', 'Se.9308002 - HOTPACK', null, null, 'خديجة بالعمش', 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حضانة للخلايا مع', 'Se.141692121310-Mod.NU-55105 - NUAIRE', 65, '1433-3-13', 'هدى الشيبي', 'حفظ العينات', 'مؤسسة نسيم الصفصاف', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('عدد 3اسطوانات غاز ثاني أكسيد الكربون ', null, null, null, 'هدى الشيبي', 'حفظ الغاز', 'مؤسسة نسيم الصفصاف', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES (null, null, '925', '1432/7/9', 'أسماء الحربي', null, null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز آلي لقياس نسبة CO2 في حضان CO2 ', '2363027 - BACHRACH', 1163, '1434-7-18', 'هدى الشيبي', 'قياس ثاني أكسيد الكربون', 'مؤسسة السلام العالمية', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('جهاز فيريت آلي لقياس نسبة CO2 في حضان CO2', 'BACHRACH', null, null, 'هدى الكريثي', 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حاوية لحفظ الخلايا داخل النيتروجين السائل عدد(5)', 'GHF03K110 - THERMOLYNE', null, null, 'خديجة بالعمش', 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حاوية لحفظ الخلايا داخل النيتروجين السائل', '14111002', null, null, 'مجهول', 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حاوية لحفظ الخلايا داخل النيتروجين السائل', '1968', null, null, 'مجهول', 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حاوية لحفظ الخلايا داخل النيتروجين السائل', 'Se.357763-32 - Mod. 8201 - Thermo Scientific', 930, '1432-7-9', 'أسماء الحربي', 'حفظ العينات', 'مؤسسة أنظمة النيزك', null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حاوية لحفظ الخلايا داخل النيتروجين السائل', '38537 -international cryogenics,inc', null, null, null, 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('أسطوانة نيتروجين كبيرة', '20622', null, null, null, 'حفظ العينات', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('عربة نقل أسطوانات غاز كبيرة', '154009B', null, null, null, 'النقل', null, null, null, 'معمل زراعة انسجة', 254);
-INSERT INTO [Devices] ([DeviceName], [SerialNumber], [BaptismalNumber], [DateOfBaptism], [CustodyOfTheStudent], [DeviceFunction], [Comments], [Maintenance], [PricePerHr], [PricePerDay], [PricePerWeek], [Name], [labID], [ReservationID])  
-VALUES ('حضان بغاز Co2', 'Se.700399 - Mod.5015', null, null, 'حنان قاضي', null, null, null, null, 'معمل زراعة انسجة', 254);
-
-
 -- Lab 200
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (1)  صندوق حفظ (89) عينة', 'Se.12020060 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', '', null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (1)  رف واحد', 'Se.12020060 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (2)  صندوق حفظ (89) عينة', 'Se.12020056 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (2)  رف واحد', 'Se.12020056 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (3)  صندوق حفظ (89) عينة', 'Se.12010004 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (3)  رف واحد', 'Se.12010004 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (4)  صندوق حفظ (89) عينة', 'Se.12020046 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('فريزر -80  رقم (4)  رف واحد', 'Se.12020046 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('ثلاجة صندوق حفظ (89) عينة', '1209 - Whirpool', null, '', 'الإشراف', 'التبريد', null, null, 3.0, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('ثلاجة  رف واحد', '1209 - Whirpool', null, '', 'الإشراف', 'التبريد', null, null, 120.0, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز أكسجين طبي عدد(1)أبيض', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز أكسجين عدد(2)أخضر', null, null, '', 'عدد(1) خاصة بأسماء المحمدي(مؤسسة سلطانة دهلوي)', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز نيتروجين عدد(1)أزرق', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز هيدروجين عدد(2)أحمر', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز هواء مختلط عدد(2)رمادي', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('عربة لنقل أسطوانة الغاز', null, '1667', '1434-1-3', 'أسماء المحمدي', '', null, null, null, 'مؤسسة إبراهيم السقاف', null, 'وحدة البنك الحيوي', 200);
-INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumbe, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
-VALUES ('أسطوانة غاز هيليوم عدد(1)أصفر وأسود', null, '', '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (1)  صندوق حفظ (89) عينة', 'Se.12020060 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', '', null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (1)  رف واحد', 'Se.12020060 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (2)  صندوق حفظ (89) عينة', 'Se.12020056 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (2)  رف واحد', 'Se.12020056 - Mod.MDF-U54V Sanyo', '349', '1437-9-24', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (3)  صندوق حفظ (89) عينة', 'Se.12010004 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (3)  رف واحد', 'Se.12010004 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (4)  صندوق حفظ (89) عينة', 'Se.12020046 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 5.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('فريزر -80  رقم (4)  رف واحد', 'Se.12020046 - Mod.MDF-U54V Sanyo', '1050', '1435-8-13', 'الاشراف المشترك', 'التجميد', null, null, 150.0, 'الشركة الأساسية للكترونيات', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('ثلاجة صندوق حفظ (89) عينة', '1209 - Whirpool', null, '', 'الإشراف', 'التبريد', null, null, 3.0, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('ثلاجة  رف واحد', '1209 - Whirpool', null, '', 'الإشراف', 'التبريد', null, null, 120.0, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز أكسجين طبي عدد(1)أبيض', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز أكسجين عدد(2)أخضر', null, null, '', 'عدد(1) خاصة بأسماء المحمدي(مؤسسة سلطانة دهلوي)', '', null, null, null, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز نيتروجين عدد(1)أزرق', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز هيدروجين عدد(2)أحمر', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز هواء مختلط عدد(2)رمادي', null, null, '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('عربة لنقل أسطوانة الغاز', null, '1667', '1434-1-3', 'أسماء المحمدي', '', null, null, null, 'مؤسسة إبراهيم السقاف', null, 'وحدة البنك الحيوي',200, null);
+INSERT INTO Devices (DeviceName, SerialNumber, BaptismalNumber, DateOfBaptism, CustodyOfTheStudent, DeviceFunction, PricePerHr, PricePerDay, PricePerWeek, Comments, Maintenance, Name, labID, ReservationID) 
+VALUES ('أسطوانة غاز هيليوم عدد(1)أصفر وأسود', null, '', '', '', '', null, null, null, '', null, 'وحدة البنك الحيوي', 200, null);
 
 -- sqlite3 LabUP.db -init LabUP.sql
