@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        input {
+            text-align: center;
+        }
+        
+        label {
+            text-align: center;
+            display: block;
+        }
+    </style>
+
+    <!-- Include the local Flatpickr JavaScript file -->
+    <script src="flatpickr.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+
+    <h1>المعامل المركزية لبرنامج الأشراف المشترك</h1>
+
+    <form action="/action_page.php">
+        <h2>المعامل</h2>
+        <select name="Labs" id="Labs">
+      <option value="select">اختر المعمل</option>
+      <?php
+        $dbPath = 'C:\Users\Rz\Desktop\Lab System\LabUP.db'; // Replace with the actual path to your SQLite database file
+        
+        $conn = new SQLite3($dbPath);
+        if (!$conn) {
+            die("Connection failed: " . $conn->lastErrorMsg());
+        }
+        
+        $sql = "SELECT Name FROM Lab"; // Replace 'Lab' with the actual table name
+        $result = $conn->query($sql);
+        
+        if ($result) {
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                echo '<option value="' . $row['Name'] . '">' . $row['Name'] . '</option>';
+            }
+        }
+        
+        $conn->close();
+      ?>
+    </select>
+
+        <h2>المعلومات الشخصية</h2>
+        <label for="name">:الأسم</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="phone">:رقم الجوال</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        <label for="email">:الأيميل</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="department">:القسم</label>
+        <input type="text" id="department" name="department"><br><br>
+
+        <h2>معلومات الحجز</h2>
+        <label for="name">:الأدوات</label>
+        <select name="device" id="device">
+      <option value="select">اختر الاداة</option>
+      <option value="javascript">JavaScript</option>
+      <option value="php">PHP</option>
+    </select>
+        <br><br>
+        <label for="name">:مدة استخدام الأدوات</label>
+        <select name="time" id="time">
+      <option value="select">اختر المدة</option>
+      <option value="hafH">أقل من نص ساعة</option>
+      <option value="Hour">من نص ساعة إلى ساعة</option>
+      <option value="2Hour">من ساعة إلى ساعتين</option>
+    </select>
+        <br><br>
+
+
+        <label for="date-range">مدة الحجز:</label>
+        <input type="text" id="date-range" name="date-range" readonly>
+        <br><br>
+
+        <label for="totalPrice">:المبلغ الاجمالي</label>
+        <input type="text" id="totalPrice" name="totalPrice"><br><br>
+
+        <label for="avatar">*الرجاء إرفاق صورة الإيصال*</label><br><br>
+        <input type="file" accept="image/*,.pdf" />
+        <br><br>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script type="text/javascript">
+        // Initialize the Flatpickr date range picker
+        flatpickr("#date-range", {
+            mode: "range",
+            dateFormat: "Y-m-d"
+        });
+    </script>
+
+</body>
+
+</html>
