@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Devices</title>
+</head>
+<body>
+    <h1>Check Devices</h1>
+    <form action="#" method="POST">
+        {% for option in options %}
+            <input type="checkbox" name="devices" value="{{ option }}"> {{ option }}<br>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

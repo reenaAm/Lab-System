@@ -108,31 +108,17 @@
     <img src="C:\Users\Rz\Desktop\Lab System\JSP.png" alt="JSP" />
 
 
-    <form action="/action_page.php">
+    <form action="/" method="POST">
         <h1>نموذج حجز المعامل المركزية لبرنامج الإشراف المشترك</h1>
         <h2>المعامل</h2>
-        <select name="Labs" id="Labs">
-      <option value="select">اختر المعمل</option>
-      <?php
-        $dbPath = 'C:\Users\Rz\Desktop\Lab System\LabUP.db'; // Replace with the actual path to your SQLite database file
-        
-        $conn = new SQLite3($dbPath);
-        if (!$conn) {
-            die("Connection failed: " . $conn->lastErrorMsg());
-        }
-        
-        $sql = "SELECT Name FROM Lab"; // Replace 'Lab' with the actual table name
-        $result = $conn->query($sql);
-        
-        if ($result) {
-            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-                echo '<option value="' . $row['Name'] . '">' . $row['Name'] . '</option>';
-            }
-        }
-        
-        $conn->close();
-      ?>
-    </select>
+
+            <select name="Labs" id="Labs">
+                <option value="select">اختر المعمل</option>
+                {% for option in options %}
+                    <option value="{{ option[1] }}">{{ option[0] }} - {{ option[1] }}</option>
+                {% endfor %}
+            </select>
+        </select>
 
         <h2>المعلومات الشخصية</h2>
         <label for="name">الأسم:</label>
@@ -148,8 +134,7 @@
         <label for="name">الأدوات:</label>
         <select name="device" id="device">
       <option value="select">اختر الاداة</option>
-      <option value="javascript">جافا سكريبت</option>
-      <option value="php">بي إتش بي</option>
+      <!--  -->
     </select>
         <br><br>
         <label for="name">مدة استخدام الأدوات:</label>
@@ -188,6 +173,32 @@
             mode: "range",
             dateFormat: "Y-m-d"
         });
+    </script>
+    <script>
+        // Function to fetch device options based on selected lab
+        function fetchDeviceOptions(labID) {
+            // Make an AJAX request to the server
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", `/your-api-endpoint?labID=${labID}`, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+    
+                    // Clear previous options
+                    const deviceSelect = document.getElementById("device");
+                    deviceSelect.innerHTML = "";
+    
+                    // Add new options based on the fetched data
+                    response.forEach(device => {
+                        const option = document.createElement("option");
+                        option.value = device.DeviceName;
+                        option.textContent = device.DeviceName;
+                        deviceSelect.appendChild(option);
+                    });
+                }
+            };
+            xhr.send();
+        }
     </script>
 
 </body>

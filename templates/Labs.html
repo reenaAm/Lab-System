@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>المعامل المركزية لبرنامج الإشراف المشترك</title>
+
+
+
+    <!-- Include the local Flatpickr JavaScript file -->
+    <script src="flatpickr.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+
+    <img src="C:\Users\Rz\Desktop\Lab System\JSP.png" alt="JSP" />
+
+
+    <form action="/" method="POST">
+        <h1>نموذج حجز المعامل المركزية لبرنامج الإشراف المشترك</h1>
+        
+        <h2>المعامل</h2>
+        <select name="Labs" id="Labs">
+            <option value="select">اختر المعمل</option>
+            {% for option in options %}
+                <option value="{{ option[1] }}">{{ option[0] }}</option>
+            {% endfor %}
+        </select>
+    
+        <input type="submit" value="تأكيد">
+
+        <br><br>
+
+        <img src="C:\Users\Rz\Desktop\Lab System\Tail.jpg" alt="tail" />
+    </form>
+</body>
+
+</html>
