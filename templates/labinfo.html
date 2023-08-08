@@ -60,6 +60,20 @@
             bottom: 20px;
             right: 20px;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2DA876;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -67,12 +81,22 @@
     <h1>Welcome to the Lab Information Page</h1>
 </header>
 <main>
-    <h2>Devices</h2>
-    <ul>
-        {% for device in devices_data %}
-        <li>{{ device[0] }} - {{ device[1] }}</li>
-        {% endfor %}
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Device Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for device in devices_data %}
+            <tr>
+                <td>{{ device[0] }}</td>
+                <td>{{ device[1] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </main>
 <a href="{{ url_for('reservation_page') }}" class="go-back">Go Back</a>
 </body>
