@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Calibri, sans-serif;
-            text-align: right;
+            text-align: center;
             background-color: #D3EFE4;
             margin: 0;
             padding: 20px;
@@ -96,22 +96,29 @@
         }
     </style>
 </head>
+
 <body>
-    
+
     <img src="C:\Users\Rz\Desktop\Lab System\JSP.png" alt="JSP" />
 
-    <form action="#" method="POST">
-        <h1>نموذج حجز المعامل المركزية لبرنامج الإشراف المشترك</h1>
-        <h2>الأدوات</h2>
-        {% for option in options %}
-            <input type="checkbox" name="devices" value="{{ option }}"> {{ option }}<br>
-        {% endfor %}
-        <br><br>
 
+    <form action="/" method="POST">
+        <h1>نموذج حجز المعامل المركزية لبرنامج الإشراف المشترك</h1>
+        
+        <h2>المعامل</h2>
+        <select name="Labs" id="Labs">
+            <option value="select">اختر المعمل</option>
+            {% for option in options %}
+                <option value="{{ option[1] }}">{{ option[0] }}</option>
+            {% endfor %}
+        </select>
+    
         <input type="submit" value="تأكيد">
+
         <br><br>
 
         <img src="C:\Users\Rz\Desktop\Lab System\Tail.jpg" alt="tail" />
     </form>
 </body>
+
 </html>

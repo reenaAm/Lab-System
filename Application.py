@@ -21,9 +21,9 @@ def close_connection(exception):
         db.close()
 
 @app.route('/', methods=['GET', 'POST'])
-def Labs():
+def form():
     if request.method == 'POST':
-        lab_id = request.Labs['Labs']  # Get the selected labID from the Labs
+        lab_id = request.form['Labs']  # Get the selected labID from the form
         session['selected_lab_id'] = lab_id 
         return redirect(url_for('devices'))  # Redirect to the 'devices' route
 
@@ -32,7 +32,7 @@ def Labs():
     cursor.execute('SELECT Name, labID FROM Lab')
     options = cursor.fetchall()
     cursor.close()
-    return render_template('Labs.html', options=options)
+    return render_template('form.html', options=options)
 
 @app.route('/devices', methods=['GET'])
 def devices():
