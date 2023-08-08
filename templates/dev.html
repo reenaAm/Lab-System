@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Continue Form with Devices</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>مواصلة النموذج مع الأدوات المعتمدة على المعمل المحدد</h1>
 
     <form action="submit.html" method="POST">
-        <!-- Hidden input to store the selected lab value -->
-        <input type="hidden" name="lab" value="">
-        <h2>معلومات الحجز</h2>
-        <label for="name">الأدوات:</label>
-        <h2>Checkbox Options</h2>
-        {% for option in checkbox_options %}
-            <input type="checkbox" name="checkbox_option" value="{{ option[0] }}">
-            <label>{{ option[0] }}</label><br>
-        {% endfor %}
-        <br><br>
-        <label for="name">مدة استخدام الأدوات:</label>
-        <select name="time" id="time">
-      <option value="select">اختر المدة</option>
-      <option value="hafH">أقل من نصف ساعة</option>
-      <option value="Hour">من نصف ساعة إلى ساعة</option>
-      <option value="2Hour">من ساعة إلى ساعتين</option>
-    </select>
-        <br><br>
+      <h2>المعلومات الشخصية</h2>
+      <label for="name">الأسم:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="phone">رقم الجوال:</label>
+      <input type="text" id="phone" name="phone" /><br /><br />
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="text" id="email" name="email" /><br /><br />
+      <label for="department">القسم:</label>
+      <input type="text" id="department" name="department" /><br /><br />
 
-        <label for="date-range">مدة الحجز:</label>
-        <input type="text" id="date-range" name="date-range" readonly>
-        <br><br>
-        <label for="totalPrice">المبلغ الإجمالي:</label>
-        <input type="text" id="totalPrice" name="totalPrice"><br><br>
+      <h2>معلومات الحجز</h2>
+      <br /><br />
+      <label for="name">مدة استخدام الأدوات:</label>
+      <select name="time" id="time">
+        <option value="select">اختر المدة</option>
+        <option value="hafH">أقل من نصف ساعة</option>
+        <option value="Hour">من نصف ساعة إلى ساعة</option>
+        <option value="2Hour">من ساعة إلى ساعتين</option>
+      </select>
+      <br /><br />
 
-        <label for="avatar">الايبان************</label>
-        <br><br>
+      <label for="date-range">مدة الحجز:</label>
+      <input type="text" id="date-range" name="date-range" readonly />
+      <br /><br />
+      <label for="totalPrice">المبلغ الإجمالي:</label>
+      <input type="text" id="totalPrice" name="totalPrice" /><br /><br />
 
-        <label for="avatar">*الرجاء إرفاق صورة الإيصال*</label>
-        <br><br>
-        <label for="upload" class="file-upload-label">اختر ملف</label>
-        <input type="file" id="upload" accept="image/*,.pdf" />
-        <br><br>
+      <label for="avatar">الايبان************</label>
+      <br /><br />
 
-        <input type="submit" value="إرسال">
-        <br><br>
+      <label for="avatar">*الرجاء إرفاق صورة الإيصال*</label>
+      <br /><br />
+      <label for="upload" class="file-upload-label">اختر ملف</label>
+      <input type="file" id="upload" accept="image/*,.pdf" />
+      <br /><br />
 
-        <img src="C:\Users\Rz\Desktop\Lab System\Tail.jpg" alt="tail" />
+      <input type="submit" value="إرسال" />
+      <br /><br />
+
+      <img src="C:\Users\Rz\Desktop\Lab System\Tail.jpg" alt="tail" />
     </form>
 
     <script type="text/javascript">
-        // Initialize the Flatpickr date range picker
-        flatpickr("#date-range", {
-            mode: "range",
-            dateFormat: "Y-m-d"
-        });
+      // Initialize the Flatpickr date range picker
+      flatpickr('#date-range', {
+        mode: 'range',
+        dateFormat: 'Y-m-d'
+      })
     </script>
-
-
-</body>
-
+  </body>
 </html>
